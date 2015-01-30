@@ -5,8 +5,10 @@ test('creates a random element', function (t) {
   reset();
 
   var el = randDom();
-  t.equal(el.elm.length > 0, true);
-  t.equal(typeof el, 'Object');
+  
+  t.equal(typeof el, 'object');
+  t.equal(el.elm.toString().length > 1, true);
+  
   t.end();
 });
 
