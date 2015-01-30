@@ -4,7 +4,7 @@
   "description": "Get random DOM elements!",
   "main": "index.js",
   "scripts": {
-    "test": "node test -b"
+    "test": "node test -b -l phantom -e -q"
   },
   "devDependencies": {
     "prova": "*"
