@@ -1,9 +1,11 @@
-var domify = require("domify");
-var format = require("format-text");
+var newElement = require('new-element');
+var elements = require('inline-elements')
+               .concat(require('block-elements'))
+               .concat(require('void-elements'));
+var pickrand = require('pickrand');
 
-module.exports = newElement;
-
-function newElement (html, vars) {
-  if (arguments.length == 1) return domify(html);
-  return domify(format(html, vars));
+module.exports = function(){
+  var tag = pickrand(elements);
+  var element = newElement('<' + tag + '/>');
+  return {elm:element, tag:tag};
 }
