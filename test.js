@@ -1,21 +1,12 @@
 var test = require('prova');
-var newElement = require("./");
+var randDom = require("./");
 
-test('creates an element', function (t) {
+test('creates a random element', function (t) {
   reset();
 
-  var el = newElement('<input value="whatsup" />');
-  t.equal(el.tagName, 'INPUT');
-  t.equal(el.value, 'whatsup');
-  t.end();
-});
-
-test('supports formatting', function (t) {
-  reset();
-
-  var el = newElement('<input value="{val}" class="{cls}" />', { val: 'foo', cls: 'bar' });
-  t.equal(el.value, 'foo');
-  t.equal(el.className, 'bar');
+  var el = randDom();
+  t.equal(el.elm.length > 0, true);
+  t.equal(typeof el, 'Object');
   t.end();
 });
 
