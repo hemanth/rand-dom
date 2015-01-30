@@ -1,6 +1,6 @@
-## rand-dom
+## rand-dom [![Build Status](https://travis-ci.org/hemanth/rand-dom.svg)](https://travis-ci.org/hemanth/rand-dom)
 
-> Gives you a rand-dom.
+> Creates a random DOM element.
 
 ```js
 var randDom = require('rand-dom');
