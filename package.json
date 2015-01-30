@@ -1,0 +1,28 @@
+{
+  "name": "rand-dom",
+  "version": "1.0.0",
+  "description": "Get random DOM elements!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test -b"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "dom"
+  ],
+  "repository": {
+    "url": "git@github.com:hemanth/rand-dom.git",
+    "type": "git"
+  },
+  "author": "Hemanth.HM <hemanth.hm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "block-elements": "^1.0.0",
+    "inline-elements": "^1.0.0",
+    "new-element": "0.0.2",
+    "pickrand": "0.0.2",
+    "void-elements": "^2.0.1"
+  }
+}
