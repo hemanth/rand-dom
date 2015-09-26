@@ -7,7 +7,7 @@
     "test": "node test -b -l phantom -e -q"
   },
   "devDependencies": {
-    "prova": "*"
+    "prova": "2.1.2"
   },
   "keywords": [
     "dom"
@@ -19,10 +19,10 @@
   "author": "Hemanth.HM <hemanth.hm@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "block-elements": "^1.0.0",
-    "inline-elements": "^1.0.0",
+    "block-elements": "1.1.0",
+    "inline-elements": "1.0.0",
     "new-element": "0.0.2",
     "pickrand": "0.0.2",
-    "void-elements": "^2.0.1"
+    "void-elements": "2.0.1"
   }
 }
