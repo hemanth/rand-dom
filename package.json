@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "block-elements": "^1.0.0",
-    "inline-elements": "^1.0.0",
+    "inline-elements": "^1.1.2",
     "new-element": "1.0.0",
     "pickrand": "0.0.2",
     "void-elements": "^2.0.1"
