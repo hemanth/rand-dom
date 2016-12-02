@@ -19,7 +19,7 @@
   "author": "Hemanth.HM <hemanth.hm@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "block-elements": "^1.0.0",
+    "block-elements": "^1.1.0",
     "inline-elements": "^1.1.2",
     "new-element": "1.0.0",
     "pickrand": "0.0.2",
