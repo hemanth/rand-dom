@@ -23,6 +23,6 @@
     "inline-elements": "^1.1.2",
     "new-element": "2.0.0",
     "pickrand": "0.0.2",
-    "void-elements": "^2.0.1"
+    "void-elements": "^3.1.0"
   }
 }
