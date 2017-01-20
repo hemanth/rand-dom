@@ -7,7 +7,7 @@
     "test": "node test -b -l phantom -e -q"
   },
   "devDependencies": {
-    "prova": "*"
+    "prova": "3.0.0"
   },
   "keywords": [
     "dom"
