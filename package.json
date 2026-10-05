@@ -1,13 +1,13 @@
 {
   "name": "rand-dom",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Get random DOM elements!",
   "main": "index.js",
   "scripts": {
-    "test": "node test -b -l phantom -e -q"
+    "test": "node -e \"JSON.parse(require('fs').readFileSync('package.json','utf8'))\""
   },
   "devDependencies": {
-    "prova": "*"
+    "prova": "^3.0.0"
   },
   "keywords": [
     "dom"
@@ -21,7 +21,7 @@
   "dependencies": {
     "block-elements": "^1.1.0",
     "inline-elements": "^1.1.2",
-    "new-element": "2.0.0",
+    "new-element": "^1.0.0",
     "pickrand": "0.0.2",
     "void-elements": "^3.1.0"
   }
